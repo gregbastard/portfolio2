@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lobster&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500&family=Josefin+Sans:ital,wght@1,300&family=Lobster&family=Orbitron&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #dddbd5;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+main{
+    width:150vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e2dfd5;
+ 
+}
+header li {
+    color: rgb(68,172,186, .3);
+    display: inline;
+    margin-right: 40px;
+    justify-content: center; 
+    
+
+}
+   
+header ul{
+   
+     font-family: lobster;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     font-size: 30px;
+     list-style: none;
+}
+
+#cont{
+    margin-left: 200px;
+    margin-right: 0px;
+}
+
+header {
+   
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+header nav{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    background-color:white;
+   
+}
+
+#overlay1 h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #ffc800;
+    width: 100%;
+   
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 12px;
+}
+header nav a {
+    font-size: 18px;
+    font-family:sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#overlay1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+    
+   
+    
+
+}
+
+#logo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 50px;
+    transition: box-shadow .5s ease;
+    border-radius: 20px;
+}
+
+#titre1{
+    font-family: sans-serif;
+    font-size: 16px;
+   
+}
+
+
+.photo1 {
+   
+    display: flex;
+    flex-direction: crow;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+  
+   
+  
+}
+.container{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+   
+}
+#pays{
+    margin-bottom: 30px;
+    width: 500px;
+    top :200px;
+    box-shadow:10px 5px 5px rgb(37, 11, 11);
+}
+.overlay{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.text{
+    color:rgb(15, 13, 13);
+    font-size: 16px;
+    padding: 16px 32px;
+    width: 500px;
+    
+}
+
+#titre1{
+    padding: 0;
+}
+
+
+.propos{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ebebd9;
+    height: 600px;
+}
+
+
+h1{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 24px;
+   
+      
+}
+
+
+.parcours{
+    background-color: #e2dfd5;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.parcours figcaption{
+    width: 300px;
+   
+    
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+#imgpex{
+    width: 300px;
+    height: 300px;
+}
+#chantiers{
+    background-color: #ebebd9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#chantiers figure{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+    
+     padding-bottom:20px ;
+}
+#chantiers figcaption{
+    width: 400px;
+    height: auto;
+    font-size: 12px;
+}
+#chantiers h2{
+    margin-bottom: 50px;
+   
+}
+#chantiers h3{
+    margin-bottom: 15px;
+}
+
+
+
+#pict{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+   
+}
+h1{
+    text-align: center;
+    font-family: Lobster;
+   
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+  
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  #subject{
+      display: flex;
+      flex-direction: column;
+    padding: 12px;
+   
+   
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: horizontal;
+  }
+  label{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+  
+ #sub{
+    background-color: #1255a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    
+  }
+  h2{
+      text-align: center;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      font-size: 18px;
+  }
+  
+  
+  .contact {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#f2f2f2;
+    padding:20px;
+    width: 100%;
+   
+    max-width: 100%;
+    margin:0 auto;
+  }
+  .contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .contact label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+footer{
+    width: 100%;
+    height: 120px;
+    background-color:#f2f2f2 ;
+   
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0 15px 0;
+    
+}
+footer li {
+    margin-right: 30px;
+}
+footer img{
+width: 40px;
+height: 40px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+  @media screen and (max-width:1000px){
+      body {
+          display: block;
+      }
+      main{
+          width: 100%;
+          overflow: hidden;
+      }
+      header nav ul{
+          width: 300px;
+      }
+      .parcours{
+          
+      }
+      .parcours article{
+          width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+      header nav a {
+          font-size: 12px;
+      }
+      .photo1{
+          display: flex;
+          flex-direction: column;
+      }
+      #imgpex{
+          width:150px;
+          height: 150px;
+      }
+      #overlay1 h1{
+          font-size: 35px;
+      }
+      #overlay1 h3{
+         font-size: 12px;
+      }
+      #overlay1 h4{
+        font-size: 10px;
+     }
+     .text{
+         font-size: 12px;
+     }
+     .propos{
+         height: auto;
+     }
+     .container{
+         padding-left: 50px;
+         padding-right: 50px;
+        
+         }
+      #pays{
+          width: 300px;
+      } 
+      .text{
+          width: 300px;
+      } 
+      #pict{
+        width:150px;
+        height: 150px;
+        margin-left: 50px;
+        margin-bottom: 15px;
+
+      }
+      #board{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+      #ocean{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      #chantiers{
+         align-items: center;
+      }
+      #chantiers p{
+          width: 300px;
+          margin-left: 50px;
+      }
+      #chantiers h3{
+          font-size: 12px;
+      }
+      #chantiers figcaption{
+          display: flex;
+          flex-direction: column;
+        align-items: center;
+      }
+      header ul{
+          display: flex;
+          
+         }
+         header li{
+        margin-right: 10px;
+
+        white-space: nowrap;
+         }
+         #cont{
+            margin-left: 15px;
+            padding-right: 10px;
+
+        }
+    }
